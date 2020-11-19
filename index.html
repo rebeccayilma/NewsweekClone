@@ -12,7 +12,7 @@
 
 <body class="bg-light">
 
-  <header class="offset-lg-2 col-xs-12 col-lg-8">
+  <header class="container-fluid ">
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -39,9 +39,6 @@
         </li>
       </ul>
     </div>
-    </nav>
-
-
     <nav class="navbar navbar-expand-lg d-flex justify-content-between navbar-light bg-red">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,9 +46,6 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav d-flex justify-content-between">
-          <!-- <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li> -->
           <li class="nav-item ">
             <a class="nav-link align-center text-light" href="#">Tue,Nov 17, 2020</a>
           </li>
@@ -75,94 +69,310 @@
         </ul>
       </div>
     </nav>
-
-    <!-- <div class="header-top d-flex justify-content-between p-4 bg-red">
-      <div class="hidden-md-down align-self-end text-light pb-1">Tue,Nov 17, 2020</div>
-      <div><svg class="text-light" fill="white" width="396" height="60" xmlns:xlink="http://www.w3.org/1999/xlink"
-          x="0px" y="0px" viewBox="0 0 396 60">
-          <g>
-            <path class="text-light"
-              d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
-            </path>
-          </g>
-        </svg></div>
-      <div class="align-self-end top-right-header pb-1">
-        <a class="text-light font-weight-bold px-2" href="#">LOGIN</a>
-        <a class="badge-pill text-dark px-4 py-1 font-weight-bold bg-warning" href="#">SUBSCRIBE</a>
-      </div>
-    </div> -->
-
     <div class="d-none d-lg-flex justify-content-">
-      <a href="#" class="text-dark px-3 font-weight-bold py-1 ">U.S.</a>
-      <a href="#" class="text-dark px-3 font-weight-bold py-1 ">World</a>
-      <a href="#" class="text-dark px-3 font-weight-bold py-1 ">Bussiness</a>
-      <a href="#" class="text-dark px-3 font-weight-bold py-1 ">Tech & Science</a>
-      <a href="#" class="text-dark px-3 font-weight-bold py-1 ">Culture</a>
-      <a href="#" class="text-dark px-3 font-weight-bold py-1 ">Newsgeek</a>
-      <a href="#" class="text-dark px-3 font-weight-bold py-1 ">Sports</a>
-      <a href="#" class="text-dark px-3 font-weight-bold py-1 ">Health</a>
-      <a href="#" class="text-dark px-3 font-weight-bold py-1 ">The Debate</a>
-      <a href="#" class="text-dark px-3 font-weight-bold py-1 ">Vantage</a>
-      <a href="#" class="text-dark px-3 font-weight-bold py-1 ">Weather</a>
-      <a href="#" class="text-dark px-3 font-weight-bold py-1 ">
-        <div><input type="text" placeholder="search"><img width="24" height="24"
+      <a href="#" class="text-dark px-lg-1 px-xl-2 font-weight-bold py-1 ">U.S.</a>
+      <a href="#" class="text-dark px-lg-1 px-xl-2 font-weight-bold py-1 ">World</a>
+      <a href="#" class="text-dark px-lg-1 px-xl-2 font-weight-bold py-1 ">Bussiness</a>
+      <a href="#" class="text-dark px-lg-1 px-xl-2 font-weight-bold py-1 ">Tech & Science</a>
+      <a href="#" class="text-dark px-lg-1 px-xl-2 font-weight-bold py-1 ">Culture</a>
+      <a href="#" class="text-dark px-lg-1 px-xl-2 font-weight-bold py-1 ">Newsgeek</a>
+      <a href="#" class="text-dark px-lg-1 px-xl-2 font-weight-bold py-1 ">Sports</a>
+      <a href="#" class="text-dark px-lg-1 px-xl-2 font-weight-bold py-1 ">Health</a>
+      <a href="#" class="text-dark px-lg-1 px-xl-2 font-weight-bold py-1 ">The Debate</a>
+      <a href="#" class="text-dark px-lg-1 px-xl-2 font-weight-bold py-1 ">Vantage</a>
+      <a href="#" class="text-dark px-lg-1 px-xl-2 font-weight-bold py-1 ">Weather</a>
+      <a href="#" class="text-dark px-lg-1 px-xl-2 font-weight-bold py-1 ">
+        <div class="search-input"><input type="text" placeholder="search"><img width="16" height="16"
             src="https://g.newsweek.com/www/images/icon-search-glass.svg" alt="search_icn"></div>
       </a>
     </div>
     <div class="d-none d-lg-flex pl-3 justify-content-start">
-      <a class="text-dark px-3  py-1 " href="#">TRENDING</a>
-      <a class="text-dark px-3  py-1 " href="#">JOE BIDEN</a>
-      <a class="text-dark px-3  py-1 " href="#">DONALD TRUMP</a>
-      <a class="text-dark px-3  py-1 " href="#">2020 ELECTION</a>
-      <a class="text-dark px-3  py-1 " href="#">CORONAVIRUS</a>
-      <a class="text-dark px-3  py-1 " href="#">STIMULUS PACKAGE</a>
+      <a class="text-dark px-1 px-xl-2  py-1 " href="#">TRENDING</a>
+      <a class="text-dark px-1 px-xl-2  py-1 " href="#">JOE BIDEN</a>
+      <a class="text-dark px-1 px-xl-2  py-1 " href="#">DONALD TRUMP</a>
+      <a class="text-dark px-1 px-xl-2  py-1 " href="#">2020 ELECTION</a>
+      <a class="text-dark px-1 px-xl-2  py-1 " href="#">CORONAVIRUS</a>
+      <a class="text-dark px-1 px-xl-2  py-1 " href="#">STIMULUS PACKAGE</a>
     </div>
   </header>
 
-  <div class="stories offset-lg-2 col-lg-8 p-4 my-3 bg-white">
+  <div class="stories container-fluid my-3 bg-white">
     <div class="row">
       <!-- First Colomun -->
-      <div class="featurerd mx-1 col-lg-3 col-md-5 col-sm-12">
-        <p class="roboto-condensed section-title">FEATURED STORIES</p>
+      <div class="featurerd col-lg-3 col-md-6 col-sm-12">
+        <p class="roboto-condensed section-title text-uppercase">FEATURED STORIES</p>
         <div class="single-featured d-flex flex-column">
           <img
             src="https://d.newsweek.com/en/full/1670743/jon-osoff.jpg?w=397&h=265&q=90&f=abde93437c15ba73bd358ddc7ba34d59"
             alt="" class="img-fluid">
-            <div class="category roboto-condensed">U.S.</div>
+            <div class="category roboto-condensed text-uppercase">U.S.</div>
           <div class="text-featured">
-            <h3 class="title font-weight-bolder roboto-condensed">Black and Latino Groups Eye Georgia Senate Runoffs
+            <h3 class="title font-weight-bold roboto-condensed">Black and Latino Groups Eye Georgia Senate Runoffs
               Needing a Sweep</h3>
             <p class="arial">The balance of power in the Senate—and level of effectiveness of Joe Biden's incoming
               administration—hangs in the balance with dual Senate runoffs in Georgia, and Black and Latino groups are
               mobilizing to try to win two seats in an incredibly challenging political environment.</p>
           </div>
         </div>
+        <div class="single-featured d-flex flex-column">
+          <img
+            src="https://d.newsweek.com/en/full/1670661/robert-obrien.jpg?w=397&h=265&q=90&f=e325d4268c254c1f97a660a577098fa6"
+            alt="" class="img-fluid">
+            <div class="category roboto-condensed text-uppercase">U.S.</div>
+          <div class="text-featured">
+            <h3 class="title font-weight-bold roboto-condensed">Trump's National Security Adviser Says NSC Will Support Biden Transition</h3>
+            <p class="arial">The balance of power in the Senate—and level of effectiveness of Joe Biden's incoming
+              administration—hangs in the balance with dual Senate runoffs in Georgia, and Black and Latino groups are
+              mobilizing to try to win two seats in an incredibly challenging political environment.</p>
+          </div>
+        </div>
+        <div class="single-featured d-flex flex-column">
+          <img
+            src="https://d.newsweek.com/en/full/1667461/cronavirus-cdc.jpg?w=397&h=265&q=90&f=2c01fc59f317b173d934a954fa5496ec"
+            alt="" class="img-fluid">
+            <div class="category roboto-condensed text-uppercase">health</div>
+          <div class="text-featured">
+            <h3 class="title font-weight-bold roboto-condensed">Moderna COVID Vaccine More Effective Than Pfizer: 'Tremendously Exciting'</h3>
+            <p class="arial">Moderna reported its vaccine is over 94 percent effective, in contrast to the 90 percent claimed by Pfizer.</p>
+          </div>
+        </div>
+        <div class="single-featured d-flex flex-column">
+          <img
+            src="https://d.newsweek.com/en/full/1670598/rochester-shooting.jpg?w=397&h=265&q=90&f=72c36a5032afa934c3c76f798aa6ea3d"
+            alt="" class="img-fluid">
+            <div class="category roboto-condensed text-uppercase">U.S.</div>
+          <div class="text-featured">
+            <h3 class="title font-weight-bold roboto-condensed">Despite Pandemic Lockdowns, Mass Shootings Are 35% Higher Than 2019</h3>
+            <p class="arial">The number of mass shootings in the U.S. have soared in 2020, despite widespread closures of schools, officers and many public places due to the pandemic.</p>
+          </div>
+        </div>
+        <div class="single-featured d-flex flex-column">
+          <img
+            src="https://d.newsweek.com/en/full/1670675/donald-trump.jpg?w=397&h=265&q=90&f=ce506578d84e0ddcd83e04ca8a5e7b8d"
+            alt="" class="img-fluid">
+            <div class="category roboto-condensed text-uppercase">U.S.</div>
+          <div class="text-featured">
+            <h3 class="title font-weight-bold roboto-condensed">Expert: If U.S. Fought World War II Like It Is COVID It Would Have Lost</h3>
+            <p class="arial">Dr. Amesh Adalja of Johns Hopkins University said that public health agencies should be treated like "national security personnel because this is a national security crisis."</p>
+          </div>
+        </div>
+       
       </div>
       <!-- Second Column -->
-      <div class="top_stories mx-1 col-lg-5 col-md-5 col-sm-12">
-        <P class="roboto-condensed section-title">TOP STORIES</P>
+      <div class="top_stories col-lg-6 col-md-6 col-sm-12">
+        <P class="roboto-condensed section-title text-uppercase">TOP STORIES</P>
         <div class="single-featured d-flex flex-column">
           <img
             src="https://d.newsweek.com/en/full/1670835/georgia-ballot-count.jpg?w=591&h=364&f=13b161cb070bf5368ae541307934dd7f"
             alt="" class="img-fluid">
-            <div class="category roboto-condensed">U.S.</div>
+            <div class="category roboto-condensed text-uppercase">U.S.</div>
           <div class="text-featured">
-            <h3 class="title font-weight-bolder roboto-condensed">Black and Latino Groups Eye Georgia Senate Runoffs
+            <h3 class="title font-weight-bold roboto-condensed">Black and Latino Groups Eye Georgia Senate Runoffs
               Needing a Sweep</h3>
             <p class="arial">The balance of power in the Senate—and level of effectiveness of Joe Biden's incoming
               administration—hangs in the balance with dual Senate runoffs in Georgia, and Black and Latino groups are
               mobilizing to try to win two seats in an incredibly challenging political environment.</p>
           </div>
         </div>
+        <p class="roboto-condensed section-title my-1 text-uppercase">My turn</p>
+        <div class="row">
+          <div class=" col-sm-4 ">
+            <img src="https://d.newsweek.com/en/full/1671049/grief-loss-parent-child-infant-death.jpg?w=397&h=397&f=b86dfac378e86889c500207207d6e4ef" alt="item" class="image-fluid article-item ">
+            <a href="#" class="text-secondary roboto-condensed font-weight-bolder">'My Daughter Passed Away 11 Years Ago. I'm Still Experiencing Grief'</a>
+          </div>
+          <div class=" col-sm-4">
+            <img src="https://d.newsweek.com/en/full/1671046/therapists-therapy-coping-failing.jpg?w=397&h=397&f=7bd41b549f5e450ef88795e65b8c7d01" alt="item" class="image-fluid article-item ">
+            <a href="#" class="text-secondary roboto-condensed font-weight-bolder">'My Coping Skills As A Therapist in 2020: Fail And Then Keep Trying'</a>
+          </div>
+          <div class=" col-sm-4">
+            <img src="https://d.newsweek.com/en/full/1670967/plants-interior-design-indoor-garden.jpg?w=397&h=397&f=0feb7aad15d8a8b0d5bd00125b2acf05" alt="item" class="image-fluid article-item ">
+            <a href="#" class="text-secondary roboto-condensed font-weight-bolder">'I'm a Plant Stylist. Here Are 4 Tips to Make a More Peaceful Home'</a>
+          </div>          
+        </div>
+        <p class="roboto-condensed section-title pt-2 py-2 my-2 text-uppercase">culture & travel</p>
+        <div class="row">
+          <div class=" col-sm-4">
+            <img src="https://d.newsweek.com/en/full/1670967/plants-interior-design-indoor-garden.jpg?w=397&h=397&f=0feb7aad15d8a8b0d5bd00125b2acf05" alt="item" class="image-fluid article-item ">
+            <div class="category-culture roboto-condensed text-uppercase font-weight-bold">Tv</div>
+            <a href="#" class="text-secondary roboto-condensed font-weight-bolder">'I'm a Plant Stylist. Here Are 4 Tips to Make a More Peaceful Home'</a>
+          </div> 
+          <div class=" col-sm-4">
+            <img src="https://d.newsweek.com/en/full/1656744/reopening-giza-pyramids-egypt.png?w=397&h=397&f=d4ccda70eb973e01a30a85425158812f" alt="item" class="image-fluid article-item ">
+            <div class="category-culture roboto-condensed text-uppercase font-weight-bold">Travel</div>
+            <a href="#" class="text-secondary roboto-condensed font-weight-bolder">Striking Photos of the Tourism Industry During COVID-19</a>
+          </div> 
+          <div class=" col-sm-4">
+            <img src="https://d.newsweek.com/en/full/1660785/50-photos-american-life-2020.png?w=397&h=397&f=9bf625ceb2b288a2b77236d1bdcc3a93" alt="item" class="image-fluid article-item ">
+            <div class="category-culture roboto-condensed text-uppercase font-weight-bold">Coronavirus</div>
+            <a href="#" class="text-secondary roboto-condensed font-weight-bolder">'50 Photos of American Life in 2020</a>
+          </div>   
+        </div>
+        <p class="roboto-condensed section-title pt-2 py-2 my-2 text-uppercase">more stories</p>
+        <div class="top-border-small mb-4 d-flex">
+          <img class="mt-2" src="https://d.newsweek.com/en/full/1672868/iran-trump-pompeo-rouhani-jcpoa-sanctions.jpg?w=95&h=95&f=c4536a65a78ad932ba72875f9443b933" alt="stories-item">
+          <div class="stories-text mt-2 pl-2">
+            <p class="font-weight-bold text-black roboto-condensed">Pompeo Celebrates Sanctions on Iran, Rouhani Dismisses 'Unruly' Trump</p>
+            <p class="roboto-condensed">
+              The Trump administration is turning the screws on Tehran, seeking to collapse Iran's economy before the end of the president's term.</p>
+          </div>
+        </div>
+        <div class="top-border-small mb-4 d-flex">
+          <img class="mt-2" src="https://d.newsweek.com/en/full/1672884/mcconnell.jpg?w=95&h=95&f=2fb693feced91856907147bd7e52b2d9" alt="stories-item">
+          <div class="stories-text mt-2 pl-2">
+            <p class="font-weight-bold text-black roboto-condensed">McConnell 'Holding the Whole Nation Hostage' on Stimulus: Seattle Mayor</p>
+            <p class="roboto-condensed">
+              The Senate majority leader has faced criticism over a delay in agreeing a further relief package amid the COVID-19 pandemic.</p>
+          </div>
+        </div>
+        <div class="top-border-small mb-4 d-flex">
+          <img class="mt-2" src="https://d.newsweek.com/en/full/1672874/election-officials-milwaukee-wisconsin.jpg?w=95&h=95&f=4cc878ee3f766bee7edfcb9b9471a48a3" alt="stories-item">
+          <div class="stories-text mt-2 pl-2">
+            <p class="font-weight-bold text-black roboto-condensed">Wisconsin GOP Official Questions Validity Of Absentee Ballots On Website</p>
+            <p class="roboto-condensed">              
+              The Wisconsin Elections Commission held an ill-tempered discussion on how to conduct a recount in the state.</p>
+          </div>
+        </div>
+        <div class="top-border-small mb-4 d-flex">
+          <img class="mt-2" src="https://d.newsweek.com/en/full/1672874/election-officials-milwaukee-wisconsin.jpg?w=95&h=95&f=4cc878ee3f766bee7edfcb9b9471a48a3" alt="stories-item">
+          <div class="stories-text mt-2 pl-2">
+            <p class="font-weight-bold text-black roboto-condensed">Wisconsin GOP Official Questions Validity Of Absentee Ballots On Website</p>
+            <p class="roboto-condensed">              
+              The Wisconsin Elections Commission held an ill-tempered discussion on how to conduct a recount in the state.</p>
+          </div>
+        </div>
+        <div class="top-border-small mb-4 d-flex">
+          <img class="mt-2" src="https://d.newsweek.com/en/full/1672874/election-officials-milwaukee-wisconsin.jpg?w=95&h=95&f=4cc878ee3f766bee7edfcb9b9471a48a3" alt="stories-item">
+          <div class="stories-text mt-2 pl-2">
+            <p class="font-weight-bold text-black roboto-condensed">Wisconsin GOP Official Questions Validity Of Absentee Ballots On Website</p>
+            <p class="roboto-condensed">              
+              The Wisconsin Elections Commission held an ill-tempered discussion on how to conduct a recount in the state.</p>
+          </div>
+        </div>
+        <div class="top-border-small mb-4 d-flex">
+          <img class="mt-2" src="https://d.newsweek.com/en/full/1672874/election-officials-milwaukee-wisconsin.jpg?w=95&h=95&f=4cc878ee3f766bee7edfcb9b9471a48a3" alt="stories-item">
+          <div class="stories-text mt-2 pl-2">
+            <p class="font-weight-bold text-black roboto-condensed">Wisconsin GOP Official Questions Validity Of Absentee Ballots On Website</p>
+            <p class="roboto-condensed">              
+              The Wisconsin Elections Commission held an ill-tempered discussion on how to conduct a recount in the state.</p>
+          </div>
+        </div>
+        <div class="top-border-small mb-4 d-flex">
+          <img class="mt-2" src="https://d.newsweek.com/en/full/1672874/election-officials-milwaukee-wisconsin.jpg?w=95&h=95&f=4cc878ee3f766bee7edfcb9b9471a48a3" alt="stories-item">
+          <div class="stories-text mt-2 pl-2">
+            <p class="font-weight-bold text-black roboto-condensed">Wisconsin GOP Official Questions Validity Of Absentee Ballots On Website</p>
+            <p class="roboto-condensed">              
+              The Wisconsin Elections Commission held an ill-tempered discussion on how to conduct a recount in the state.</p>
+          </div>
+        </div>
+        <div class="top-border-small mb-4 d-flex">
+          <img class="mt-2" src="https://d.newsweek.com/en/full/1672874/election-officials-milwaukee-wisconsin.jpg?w=95&h=95&f=4cc878ee3f766bee7edfcb9b9471a48a3" alt="stories-item">
+          <div class="stories-text mt-2 pl-2">
+            <p class="font-weight-bold text-black roboto-condensed">Wisconsin GOP Official Questions Validity Of Absentee Ballots On Website</p>
+            <p class="roboto-condensed">              
+              The Wisconsin Elections Commission held an ill-tempered discussion on how to conduct a recount in the state.</p>
+          </div>
+        </div>
+        <div class="top-border-small mb-4 d-flex">
+          <img class="mt-2" src="https://d.newsweek.com/en/full/1672874/election-officials-milwaukee-wisconsin.jpg?w=95&h=95&f=4cc878ee3f766bee7edfcb9b9471a48a3" alt="stories-item">
+          <div class="stories-text mt-2 pl-2">
+            <p class="font-weight-bold text-black roboto-condensed">Wisconsin GOP Official Questions Validity Of Absentee Ballots On Website</p>
+            <p class="roboto-condensed">              
+              The Wisconsin Elections Commission held an ill-tempered discussion on how to conduct a recount in the state.</p>
+          </div>
+        </div>
+        <div class="top-border-small mb-4 d-flex">
+          <img class="mt-2" src="https://d.newsweek.com/en/full/1672874/election-officials-milwaukee-wisconsin.jpg?w=95&h=95&f=4cc878ee3f766bee7edfcb9b9471a48a3" alt="stories-item">
+          <div class="stories-text mt-2 pl-2">
+            <p class="font-weight-bold text-black roboto-condensed">Wisconsin GOP Official Questions Validity Of Absentee Ballots On Website</p>
+            <p class="roboto-condensed">              
+              The Wisconsin Elections Commission held an ill-tempered discussion on how to conduct a recount in the state.</p>
+          </div>
+        </div>
+        <div class="top-border-small mb-4 d-flex">
+          <img class="mt-2" src="https://d.newsweek.com/en/full/1672874/election-officials-milwaukee-wisconsin.jpg?w=95&h=95&f=4cc878ee3f766bee7edfcb9b9471a48a3" alt="stories-item">
+          <div class="stories-text mt-2 pl-2">
+            <p class="font-weight-bold text-black roboto-condensed">Wisconsin GOP Official Questions Validity Of Absentee Ballots On Website</p>
+            <p class="roboto-condensed">              
+              The Wisconsin Elections Commission held an ill-tempered discussion on how to conduct a recount in the state.</p>
+          </div>
+        </div>
+        <div class="top-border-small mb-4 d-flex">
+          <img class="mt-2" src="https://d.newsweek.com/en/full/1672874/election-officials-milwaukee-wisconsin.jpg?w=95&h=95&f=4cc878ee3f766bee7edfcb9b9471a48a3" alt="stories-item">
+          <div class="stories-text mt-2 pl-2">
+            <p class="font-weight-bold text-black roboto-condensed">Wisconsin GOP Official Questions Validity Of Absentee Ballots On Website</p>
+            <p class="roboto-condensed">              
+              The Wisconsin Elections Commission held an ill-tempered discussion on how to conduct a recount in the state.</p>
+          </div>
+        </div>
       </div>
       <!-- Third Column -->
-      <div class="debate mx-1 col-lg-3 col-md-12 col-sm-12">
-        <p class="roboto-condensed section-title">THE DEBATE</p>
-        <div class="debate-item d-flex justify-content-between top-border">
+      <div class="debate col-lg-3 col-md-12 col-sm-12">
+        <p class="roboto-condensed section-title text-uppercase">THE DEBATE</p>
+        <div class="debate-item d-flex justify-content-evenly my-4 top-border">
           <img src="https://d.newsweek.com/en/full/1643342/terry-schilling.png?w=63&amp;h=63&amp;f=68fc2bca63df1fe25f0f2a32aad07f7a" alt="Terry Schilling" title="Terry Schilling" loading="lazy" width="63" height="63">
           <div class="debate-text">
-            <a href="#" class="debate-title roboto-condensed">Science Says Porn Is a Huge Problem. Lawmakers Must Stop Ignoring It</a>
-            <p class="debator roboto-condensed text-uppercase text-bolder">By <span class="text-bold text-dark">Terry Schilling</span></p>
+            <a href="#" class="debate-title font-weight-bold text-black roboto-condensed">Science Says Porn Is a Huge Problem. Lawmakers Must Stop Ignoring It</a>
+            <p class="debator roboto-condensed text-uppercase">By <span class="font-weight-bolder text-dark">Terry Schilling</span></p>
+          </div>
+        </div>
+        <div class="vs-line">
+          <div class="roboto-condensed py-1 mx-auto">VS</div>
+        </div>
+        <div class="debate-item d-flex justify-content-evenly my-4 bottom-border">
+          <div class="debate-text">
+            <a href="#" class="debate-title font-weight-bold text-black roboto-condensed">Banning Porn Is a Bad Idea. There Are Other Ways To Improve the Internet</a>
+            <p class="debator roboto-condensed text-uppercase">By <span class="font-weight-bolder text-dark">Brandi Love</span></p>
+          </div>
+          <img src="https://d.newsweek.com/en/full/1670715/brandi-love.png?w=63&h=63&f=4ccee9880aee400defccc4bf2265a6d0" alt="Brandi Love" title="Brandi Love" loading="lazy" width="63" height="63">
+        </div>
+        <p class="roboto-condensed section-title text-uppercase">OPINIOn</p>
+        <div class="debate-item d-flex justify-content-evenly my-4 bottom-border-small">
+          <img src="https://d.newsweek.com/en/full/1669855/sean-durns.png?w=63&h=63&f=45292fb0b9c4f61efd0df941247820b1" alt="Terry Schilling" title="Terry Schilling" loading="lazy" width="63" height="63">
+          <div class="debate-text">
+            <a href="#" class="debate-title font-weight-bold text-black roboto-condensed">The Palestinian Authority's Looming Succession Crisis</a>
+            <p class="debator roboto-condensed font-weight-bolder text-uppercase">By <span class=" text-dark">Sean Durns</span></p>
+          </div>
+        </div>
+        <div class="debate-item d-flex justify-content-evenly my-4 bottom-border-small">
+          <img src="https://d.newsweek.com/en/full/1669942/john-whyte.png?w=63&h=63&f=70dbbd85e324b9096d142254845e57b3" alt="Terry Schilling" title="Terry Schilling" loading="lazy" width="63" height="63">
+          <div class="debate-text">
+            <a href="#" class="debate-title font-weight-bold text-black roboto-condensed"> Not All Seniors Face the Same Pandemic Risk</a>
+            <p class="debator roboto-condensed font-weight-bolder text-uppercase">By <span class=" text-dark">John Whyte, MD</span></p>
+          </div>
+        </div>
+        <div class="debate-item d-flex justify-content-evenly my-4 bottom-border-small">
+          <img src="https://d.newsweek.com/en/full/1588751/jason-rantz.png?w=63&h=63&f=f8afd026e20e8ab3f6d6fa08c4efc72c" alt="Terry Schilling" title="Terry Schilling" loading="lazy" width="63" height="63">
+          <div class="debate-text">
+            <a href="#" class="debate-title font-weight-bold text-black roboto-condensed">Portland's Attack on Gendered Pronouns Is About Forcing Obedience</a>
+            <p class="debator roboto-condensed font-weight-bolder text-uppercase">By <span class=" text-dark">jason rantz</span></p>
+          </div>
+        </div>
+        <div class="debate-item d-flex justify-content-evenly my-4 bottom-border-small">
+          <img src="https://d.newsweek.com/en/full/1627300/heather-mac-donald.png?w=63&h=63&f=9ccd8e5329b386fdfa2e6fedb14ee698" alt="Terry Schilling" title="Terry Schilling" loading="lazy" width="63" height="63">
+          <div class="debate-text">
+            <a href="#" class="debate-title font-weight-bold text-black roboto-condensed">The Divisive Double Standard in Joe Biden's 'Unity' Speech</a>
+            <p class="debator roboto-condensed font-weight-bolder text-uppercase">By <span class=" text-dark">heather mac donald</span></p>
+          </div>
+        </div>
+        <div class="debate-item d-flex justify-content-evenly my-4 bottom-border-small">
+          <img src="https://d.newsweek.com/en/full/1577421/hank-gilman.png?w=63&h=63&f=f18b9a7364da071493072861d8b4448f" alt="Terry Schilling" title="Terry Schilling" loading="lazy" width="63" height="63">
+          <div class="debate-text">
+            <a href="#" class="debate-title font-weight-bold text-black roboto-condensed">Should Trump Get Just a Little Credit for the COVID Vaccine?</a>
+            <p class="debator roboto-condensed font-weight-bolder text-uppercase">By <span class=" text-dark">hank gilman</span></p>
+          </div>
+        </div>
+        <div class="debate-item d-flex justify-content-evenly my-4 bottom-border-small">
+          <img src="https://d.newsweek.com/en/full/1590940/caroline-glick.png?w=63&h=63&f=41d8e5b01504c6b015cb602f80cdaead" alt="Terry Schilling" title="Terry Schilling" loading="lazy" width="63" height="63">
+          <div class="debate-text">
+            <a href="#" class="debate-title font-weight-bold text-black roboto-condensed">The 2020 Election Has Been Terrible for the Jews</a>
+            <p class="debator roboto-condensed font-weight-bolder text-uppercase">By <span class=" text-dark">caroline glick</span></p>
+          </div>
+        </div>
+        <div class="debate-item d-flex justify-content-evenly my-4">
+          <img src="https://d.newsweek.com/en/full/1646843/mark-davis.png?w=63&h=63&f=5509ca2d256531e792d45e5e4f2af6d7" alt="Terry Schilling" title="Terry Schilling" loading="lazy" width="63" height="63">
+          <div class="debate-text">
+            <a href="#" class="debate-title font-weight-bold text-black roboto-condensed">Election Inquiries Can Yield Value this Year and Moving Forward</a>
+            <p class="debator roboto-condensed font-weight-bolder text-uppercase">By <span class=" text-dark">mark davis</span></p>
           </div>
         </div>
       </div>

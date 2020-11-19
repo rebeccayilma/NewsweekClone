@@ -13,8 +13,10 @@
   font-size: 15px;
 }
 
-.container {
+.container-fluid {
   max-width: 1310px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header {
@@ -27,9 +29,16 @@ header {
   list-style: none;
 }
 
+.search-input > input{
+  width: 4em;
+  border: none;
+}
+
 .section-title {
   color: rgba(3, 3, 3, 0.4);
   font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;    
 }
 
 .category {
@@ -44,8 +53,22 @@ header {
 
 .top-border {
   border-top: solid 4px #d9d9d9;
-  padding-bottom: 4px;
   padding-top: 1em;
+}
+
+.bottom-border {
+  border-bottom: solid 4px #d9d9d9;
+  padding-bottom: 1em;
+}
+
+.top-border-small {
+  border-top: solid 1px #d9d9d9;
+  padding-top: 0.1em;
+}
+
+.bottom-border-small {
+  border-bottom: solid 1px #d9d9d9;
+  padding-bottom: 0.1em;
 }
 
 .debate-text {
@@ -62,4 +85,42 @@ header {
 .debator {
   margin-top: 0.5em;
   font-size: 14px;
+}
+
+.vs-line {
+  border-top: 0.5px solid #cecece;
+  border-bottom: 0.5px solid #cecece;
+  height: 0.2em;
+  position: relative;
+}
+
+.vs-line > div {
+  color: white;
+  background-color: black;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-top: -16px;
+  font-weight: bolder;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.article-item {
+  width: 100%;
+}
+
+.category-culture {
+  background-color: #c2d4d7;
+  color: #020202cc;
+  opacity: 0.95;
+  margin-top: -18px;
+  padding:0 0.3em 0 0.3em;
+  width: min-content;
+  font-size: small;
 }
