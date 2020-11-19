@@ -4,6 +4,10 @@
   background-color: #f72210;;
 }
 
+.color-red {
+  color: #f72210;
+}
+
 .roboto-condensed {
   font-family: "Roboto Condensed";
 }
@@ -123,4 +127,9 @@ header {
   padding:0 0.3em 0 0.3em;
   width: min-content;
   font-size: small;
+}
+
+.imgs-95 {
+  width: 95px;
+  height: 99px;
 }
