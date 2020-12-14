@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap");
 
 .bg-red {
-  background-color: #f72210;;
+  background-color: #f72210;
 }
 
 .bg-light {
@@ -10,6 +10,13 @@
 
 .color-red {
   color: #f72210;
+}
+.bg-warning {
+  background-color: #ffe400 !important;
+}
+
+a {
+  cursor: pointer !important;
 }
 
 .roboto-condensed {
@@ -27,6 +34,10 @@
   margin-right: auto;
 }
 
+.grey {
+  color:#666;
+}
+
 header {
   font-family: "Roboto Condensed";
   padding: 0 0 0 0 !important;
@@ -37,7 +48,7 @@ header {
   list-style: none;
 }
 
-.search-input > input{
+.search-input > input {
   width: 4em;
   border: none;
 }
@@ -46,7 +57,28 @@ header {
   color: rgba(3, 3, 3, 0.4);
   font-weight: bold;
   font-size: 16px;
-  line-height: 16px;    
+  line-height: 16px;
+}
+
+.itemsnav {
+  border-right: 1px solid #d8d8d8;
+  font-size: 19px;
+  font-weight: bold;
+  color: #333333
+}
+
+/* .topred {
+  position: relative;
+  top: -20px;
+  border-right: 38px solid #f72210;
+  border-bottom: 15px solid white;
+} */
+
+.subnav {
+  border-top-color: #f4f5f7;
+  padding-top: 13px;
+  border-top-width: 2px;
+  overflow-x: scroll;
 }
 
 .category {
@@ -55,7 +87,7 @@ header {
   font-weight: bold;
   opacity: 0.9;
   margin-top: -33px;
-  padding:0.4em 1.2em 0.4em 1.2em;
+  padding: 0.4em 1.2em 0.4em 1.2em;
   width: min-content;
 }
 
@@ -128,7 +160,7 @@ header {
   color: #020202cc;
   opacity: 0.95;
   margin-top: -18px;
-  padding:0 0.3em 0 0.3em;
+  padding: 0 0.3em 0 0.3em;
   width: min-content;
   font-size: small;
 }
@@ -155,6 +187,12 @@ header {
   width: max-content;
 }
 
+@media only screen and (max-width: 768px){
+  .em {
+    width: 50% !important;
+  }
+}
+
 .inner-item {
   width: 110px;
   height: 110px;
@@ -170,14 +208,13 @@ header {
 .imgcont {
   width: 170px;
   height: 228px;
-
 }
 
 .first {
   position: absolute;
 }
 
-.second {  
+.second {
   position: relative;
   top: 1em;
   left: 5em;
@@ -205,3 +242,12 @@ header {
   border: 1px solid #ebebeb;
 }
 
+.genericon {
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.cfa {
+  font-size: 19px;
+  line-height: 19px;
+}
